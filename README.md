@@ -1,27 +1,29 @@
-# Zen-Sidebery
+# Sidebery
 
-## Hide native Zen tab panel to use Sidebery
+Tweaks to support Sidebery as an alternative to Zen's native tabs and workspace implementation.
 
-<img src="img/preview.png" alt="preview" style="width: 48%;" />
+### Features
+- Hide native Zen Tab controls.
+- Transparent browser sidebar background.
+- Compact mode for browser sidebar.
+- Auto-collapse and show on hover.
+- Hide sidebar in fullscreen mode.
+- Various tweaks to keep everything together.
 
-### What you can enable
+All features are optional and configurable from the UI.
 
-* Hide Sidebar Header
+### Dependencies:
+- **[Sidebery (Zen)](https://addons.mozilla.org/en-US/firefox/addon/sidebery-zen/)** modified build for Zen support.
+- **[SuperGradient](https://zen-browser.app/themes/af7ee14f-e9d4-4806-8438-c59b02b77715)** for gradient browser background.
 
-### Instructions:
+### Operation Tips
+- You must download, install and activate Sidebery on your own.
+- To bring Sidebery in view or to hide again, press F1 anytime.
+- Some changes, in rare cases, require you toggle Sidebery visibility or restart the browser.
+- Rememeber to clear your userChrome.css entries and Sidebery style customizations if things appear broken. 
+- If you manage to shrink the sidebar too much while playing with settings, you can always drag it back to original size.
+- Feel free to report issues and feature requests.
 
-1. Install the theme
-2. Install [Sidebery addon](https://addons.mozilla.org/en-US/firefox/addon/sidebery/)
+Author: Shaan | [Discord](https://discord.gg/NAQaFU8e) | [Github](https://github.com/shanto)
 
-### You can upload custom Sidebery settings:
-
-1. Download sidebery.json from this repo
-2. Go to Sidebery Settings -> Help -> Import Addon Data
-3. Select downloaded file
-
-<img src="img/preview2.png" alt="preview" style="width: 90%;" />
-
-
-### or customize it the way you want
-
-### In case you want to thank me: https://www.buymeacoffee.com/alex_coder
+Credits: Alexcoder5 (Github), therealmg (Discord), air.king (Discord), mbnuqw (Github) and the entire Sidebery team.
