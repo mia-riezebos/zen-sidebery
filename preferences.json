@@ -1,49 +1,92 @@
 [
     {
-        "property": "theme.sidebery.layout",
-        "label": "Auto-hide the sidebar",
-        "type": "dropdown",
-        "placeholder": "Do not hide",
-        "defaultValue": "auto-hide-fs",
-        "options": [
-            {
-                "label": "Auto-hide, expand on hover",
-                "value": "auto-hide"
-            },
-            {
-                "label": "Auto-hide in full-screen mode only",
-                "value": "auto-hide-fs"
-            }
-        ]
-    },
-    {
-        "property": "theme.sidebery.compact-view",
-        "label": "Compact mode",
-        "type": "checkbox",
-        "defaultValue": false
-    },
-    {
-        "property": "browser.tabs.allow_transparent_browser",
-        "label": "Allow Transparent Browser Tabs",
-        "type": "checkbox",
-        "defaultValue": true
-    },
-    {
         "property": "theme.sidebery.hide-zen-tabbar",
         "label": "Hide Native Zen Tab UI",
         "type": "checkbox",
         "defaultValue": true
     },
+
     {
-        "property": "theme.sidebery.sidebar-header.hide",
-        "label": "Hide Browser Sidebar Header",
-        "type": "checkbox",
-        "defaultValue": false
+        "property": "theme.sidebery.collapse",
+        "label": "Collapse Sidebery for a narrower sidebar",
+        "type": "dropdown",
+        "placeholder": "Not collapsed (always expanded)",
+        "defaultValue": "never",
+        "options": [
+            {
+                "label": "Collapsed, Auto expand (on hover)",
+                "value": "auto"
+            },
+            {
+                "label": "Always collapsed (no hover)",
+                "value": "always"
+            }
+        ]
     },
     {
-        "property": "theme.sidebery.sidebar-header.bottom-layout",
-        "label": "Push Browser Sidebar Header Down",
+        "property": "theme.sidebery.auto-hide",
+        "label": "Auto-hide Sidebery",
+        "type": "dropdown",
+        "placeholder": "Never hide Sidebery",
+        "defaultValue": "never",
+        "options": [
+            {
+                "label": "Always auto-hide Sidebery",
+                "value": "always"
+            },
+            {
+                "label": "Auto-hide in full-screen mode only",
+                "value": "fullscreen"
+            },
+            {
+                "label": "Auto-hide in compact mode only",
+                "value": "compact"
+            },
+            {
+                "label": "Auto-hide in full-screen and in compact mode",
+                "value": "fullscreen-compact"
+            }
+        ]
+    },
+
+    {
+        "property": "theme.sidebery.header.enabled",
+        "label": "Display sidebar header",
         "type": "checkbox",
         "defaultValue": true
-    }
+    },
+    {
+        "property": "theme.sidebery.header.bottom",
+        "label": "Move sidebar header to the bottom",
+        "type": "checkbox",
+        "defaultValue": true
+    },
+
+    {
+        "property": "theme.sidebery.navigation-bar.bottom",
+        "label": "Move the Sidebery navigationbar to the bottom",
+        "type": "checkbox",
+        "defaultValue": true
+    },
+
+    {
+        "property": "theme.sidebery.transparent-background",
+        "label": "Transparent Background for Sidebery",
+        "type": "dropdown",
+        "placeholder": "Use browser setting (depends on `browser.tabs.allow_transparent_browser`)",
+        "defaultValue": "auto",
+        "options": [
+            {
+                "label": "Always use transparent background (Zen theme)",
+                "value": "always"
+            },
+            {
+                "label": "Always use opaque background (Sidebery theme)",
+                "value": "never"
+            }
+        ]
+    },
+    
+
+    
 ]
