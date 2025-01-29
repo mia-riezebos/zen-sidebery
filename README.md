@@ -3,18 +3,20 @@
 Tweaks to support Sidebery as an alternative to Zen's native tabs and workspace implementation.
 
 ### Features
-- Hide native Zen Tab controls.
-- Transparent browser sidebar background.
-- Compact mode for browser sidebar.
-- Auto-collapse and show on hover.
-- Hide sidebar in fullscreen mode.
-- Various tweaks to keep everything together.
-
-All features are optional and configurable from the UI.
+- Hide Native Zen Tab UI
+  > Hides the default Zen Tab bar, so you can use Sidebery as a drop-in replacement for the native tab manager.
+- Collapsed Mode
+  > Collapses Sidebery to a narrower sidebar, configurable to auto-expand on hover.
+- Auto-hide Sideberry
+  > Auto-hide Sidebery, when not hovering over it. Configurable to only hide in fullscreen mode, compact mode, or both.
+- Move sidebar header to the bottom
+- Or hide the sidebar header altogetherfor a cleaner look
+- Transparent background
+  > Turns the sidebar background transparent, so it blends right in with your Zen theme.
 
 ### Dependencies:
-- **[Sidebery (Zen)](https://addons.mozilla.org/en-US/firefox/addon/sidebery-zen/)** modified build for Zen support.
-- **[SuperGradient](https://zen-browser.app/themes/af7ee14f-e9d4-4806-8438-c59b02b77715)** for gradient browser background.
+- **[Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery)** 
+- (or optionally **[Sidebery (Zen)](https://addons.mozilla.org/en-US/firefox/addon/sidebery-zen/)** for some extra tweaks modified for Zen support.)
 
 ### Operation Tips
 - You must download, install and activate Sidebery on your own.
