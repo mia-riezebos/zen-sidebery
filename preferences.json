@@ -1,92 +1,96 @@
 [
-    {
-        "property": "theme.sidebery.hide-zen-tabbar",
-        "label": "Hide Native Zen Tab UI",
-        "type": "checkbox",
-        "defaultValue": true
-    },
+  {
+    "property": "theme.zen-sidebery.hide_zen_tabbar",
+    "label": "Hide Native Zen Tab UI",
+    "type": "checkbox",
+    "defaultValue": true
+  },
 
-    {
-        "property": "theme.sidebery.collapse",
-        "label": "Collapse Sidebery for a narrower sidebar",
-        "type": "dropdown",
-        "placeholder": "Not collapsed (always expanded)",
-        "defaultValue": "never",
-        "options": [
-            {
-                "label": "Collapsed, Auto expand (on hover)",
-                "value": "auto"
-            },
-            {
-                "label": "Always collapsed (no hover)",
-                "value": "always"
-            }
-        ]
-    },
-    {
-        "property": "theme.sidebery.auto-hide",
-        "label": "Auto-hide Sidebery",
-        "type": "dropdown",
-        "placeholder": "Never hide Sidebery",
-        "defaultValue": "never",
-        "options": [
-            {
-                "label": "Always auto-hide Sidebery",
-                "value": "always"
-            },
-            {
-                "label": "Auto-hide in full-screen mode only",
-                "value": "fullscreen"
-            },
-            {
-                "label": "Auto-hide in compact mode only",
-                "value": "compact"
-            },
-            {
-                "label": "Auto-hide in full-screen and in compact mode",
-                "value": "fullscreen-compact"
-            }
-        ]
-    },
+  {
+    "property": "theme.zen-sidebery.collapse",
+    "label": "Collapse Sidebery for a narrower sidebar",
+    "type": "dropdown",
+    "placeholder": "Not collapsed (always expanded)",
+    "defaultValue": "none",
+    "options": [
+      {
+        "label": "Collapsed, Auto expand (on hover)",
+        "value": "auto"
+      },
+      {
+        "label": "Always collapsed (no hover)",
+        "value": "always"
+      }
+    ]
+  },
+  {
+    "property": "theme.zen-sidebery.collapse.width",
+    "label": "Width for collapsed Sidebery",
+    "type": "string",
+    "defaultValue": "40px"
+  },
 
-    {
-        "property": "theme.sidebery.header.enabled",
-        "label": "Display sidebar header",
-        "type": "checkbox",
-        "defaultValue": true
-    },
-    {
-        "property": "theme.sidebery.header.bottom",
-        "label": "Move sidebar header to the bottom",
-        "type": "checkbox",
-        "defaultValue": true
-    },
+  {
+    "property": "theme.zen-sidebery.auto_hide",
+    "label": "Auto-hide Sidebery",
+    "type": "dropdown",
+    "placeholder": "Never hide Sidebery",
+    "defaultValue": "compact",
+    "options": [
+      {
+        "label": "Always auto-hide Sidebery",
+        "value": "always"
+      },
+      {
+        "label": "Auto-hide in compact mode (follow browser setting)",
+        "value": "compact"
+      },
+      {
+        "label": "Auto-hide in full-screen mode",
+        "value": "fullscreen"
+      },
+      {
+        "label": "Auto-hide in full-screen and in compact mode",
+        "value": "fullscreen-compact"
+      }
+    ]
+  },
 
-    {
-        "property": "theme.sidebery.navigation-bar.bottom",
-        "label": "Move the Sidebery navigationbar to the bottom",
-        "type": "checkbox",
-        "defaultValue": true
-    },
+  {
+    "property": "theme.zen-sidebery.header.enabled",
+    "label": "Display sidebar header",
+    "type": "checkbox",
+    "defaultValue": true
+  },
+  {
+    "property": "theme.zen-sidebery.header.bottom",
+    "label": "Move sidebar header to the bottom",
+    "type": "checkbox",
+    "defaultValue": true
+  },
 
-    {
-        "property": "theme.sidebery.transparent-background",
-        "label": "Transparent Background for Sidebery",
-        "type": "dropdown",
-        "placeholder": "Use browser setting (depends on `browser.tabs.allow_transparent_browser`)",
-        "defaultValue": "auto",
-        "options": [
-            {
-                "label": "Always use transparent background (Zen theme)",
-                "value": "always"
-            },
-            {
-                "label": "Always use opaque background (Sidebery theme)",
-                "value": "never"
-            }
-        ]
-    },
-    
+  {
+    "property": "theme.zen-sidebery.navigation_bar.bottom",
+    "label": "Move the Sidebery navigation bar to the bottom",
+    "type": "checkbox",
+    "defaultValue": true
+  },
 
-    
+  {
+    "property": "theme.zen-sidebery.transparent_background",
+    "label": "Transparent Background for Sidebery",
+    "type": "dropdown",
+    "placeholder": "Always use opaque background (Sidebery theme)",
+    "defaultValue": "auto",
+    "options": [
+      {
+        "label": "Use browser setting (browser.tabs.allow_transparent_browser)",
+        "value": "auto"
+      },
+      {
+        "label": "Always use transparent background (Zen theme)",
+        "value": "always"
+      }
+    ]
+  }
 ]
